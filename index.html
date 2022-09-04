@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Front Cat&Dog</title>
+    </head>
+    <body>
+        <header>
+            <section class="headerPage__fondoOscuro">
+                <p>Grandes ofertas en comederos</p>
+                <div>
+                    <select
+                        class="headerPage__fondoOscuro_select"
+                        name="language"
+                        id="language"
+                    >
+                        <option value="Español">Español</option>
+                    </select>
+                    <select
+                        class="headerPage__fondoOscuro_select"
+                        name="currency"
+                        id="currency"
+                    >
+                        <option value="ARG">ARG$</option>
+                    </select>
+                </div>
+            </section>
+            <section class="headerPage__fondoAmarillo">
+                <img
+                    class="headerPage__fondoAmarillo__logo"
+                    src="img/logo.svg"
+                    alt="logo"
+                />
+                <nav class="headerPage__fondoAmarillo__nav">
+                    <a class="headerPage__fondoAmarillo__nav__a" href="#"
+                        ><i class="fa-solid fa-paw"></i> Categorías</a
+                    >
+                    <a class="headerPage__fondoAmarillo__nav__a" href="#"
+                        ><i class="fa-solid fa-paw"></i> Pets</a
+                    >
+                    <a class="headerPage__fondoAmarillo__nav__a" href="#"
+                        ><i class="fa-solid fa-paw"></i> Nosotros</a
+                    >
+                    <a class="headerPage__fondoAmarillo__nav__a" href="#"
+                        ><i class="fa-solid fa-paw"></i> Contactenos</a
+                    >
+                </nav>
+                <nav>
+                    <a class="ham" href="#"><i class="fa-sharp fa-solid fa-bars"></i></a>
+                </nav>
+        
+        </header>
+
+        <main>
+            <section Class="section__banner">
+                <div class="section__banner__textos">
+                    <h2 class="section__banner__titulo">¡Es un placer tenerte aquí!</h2>
+                    <p class="section__banner__parrafo">¡Comederos en descuento!</p>
+                    <button class="section__banner__btn">COMEDEROS</button>
+                </div>
+            </section>
+            <section class="section__destacados">
+                <i class="section__destacados__i fa-solid fa-paw"></i>
+                <h2 class="section__destacados__titulo">Productos Destacados</h2>
+                <nav class="section__destacados__nav">
+                    <a class="section__destacados__nav__a" href="#">Comederos</a>
+                    <a class="section__destacados__nav__a" href="#">Accesorios</a>
+                    <a class="section__destacados__nav__a" href="#">Comida</a>
+                </nav>
+            </section>
+            <article class="article__cards">
+                <div class="article__cards__container">
+                    <img
+                        class="article__cards__image"
+                        src="img/churrasquito.png"
+                        alt="juguete churrasquito"
+                    />
+                    <p class="article__cards__name">Juguete Churrasquito</p>
+                    <p class="article__cards__price">$150</p>
+                </div>
+                <div class="article__cards__container">
+                    <img
+                        class="article__cards__image"
+                        src="img/comedero.png"
+                        alt="comedero para perro"
+                    />
+                    <p class="article__cards__name">Comedero para perro</p>
+                    <p class="article__cards__price">$250</p>
+                </div>
+                <div class="article__cards__container">
+                    <img
+                        class="article__cards__image"
+                        src="img/huesito.png"
+                        alt="juguete huesito"
+                    />
+                    <p class="article__cards__name">Juguete Huesito</p>
+                    <p class="article__cards__price">$650</p>
+                </div>
+            </article>
+            <article class="article__contactenos">
+                <h3 class="article__contactenos__titulo">Contáctanos</h3>
+                <input
+                    class="article__contactenos__input"
+                    type="text"
+                    placeholder="Nombre y Apellido"
+                />
+                <input
+                    class="article__contactenos__input"
+                    type="text"
+                    placeholder="ingresa tu correo electrónico"
+                />
+                <input
+                    class="article__contactenos__input"
+                    type="text"
+                    placeholder="Teléfono"
+                />
+                <div>
+                    <button class="article__contactenos__btn">Resetear</button>
+                    <button
+                        class="article__contactenos__btn article__contactenos__btn-amarillo"
+                    >
+                        Enviar
+                    </button>
+                </div>
+            </article>
+            <article class="article__suscribir">
+                <div class="article__suscribir__container">
+                    <img
+                        class="article__suscribir__img"
+                        src="img/enviar.svg"
+                        alt="enviar correo"
+                    />
+                    <h3 class="article__suscribir__titular">
+                        Suscribete para más novedades
+                    </h3>
+                </div>
+                <div class="article__suscribir__correo">
+                    <input
+                        class="article__suscribir__correo__input"
+                        type="text"
+                        placeholder="ingresa tu correo electrónico"
+                    />
+                    <button class="article__suscribir__correo__btn">Suscribete</button>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <div class="section__footer">
+                <div class="section__footer__contactos">
+                    <img
+                        class="section__footer__contactos__img"
+                        src="img/location.svg"
+                        alt="localidad"
+                    />
+                    <img
+                        class="section__footer__contactos__img"
+                        src="img/phone.svg"
+                        alt="teléfono"
+                    />
+                    <img
+                        class="section__footer__contactos__img"
+                        src="img/correo.svg"
+                        alt="correo electrónico"
+                    />
+                </div>
+                <img class="section__footer__logo" src="img/logo1.svg" alt="logo" />
+            </div>
+            <div class="section__footer__legales">
+                <div class="section__footer__legales__redes">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <p class="section__footer__legales__parrafo">
+                    Todos los derechos reservados Front End
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

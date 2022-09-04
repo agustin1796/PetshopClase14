@@ -1,0 +1,327 @@
+/* -------------------------------GLOBALES-------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --------------------------------HEADER--------------------------------- */
+.headerPage__fondoOscuro {
+    background-color: #222222;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 90px;
+}
+
+.headerPage__fondoOscuro_select {
+    background-color: #222222;
+    border: none;
+    color: #ffffff;
+}
+
+.headerPage__fondoAmarillo {
+    align-items: center;
+    background-color: #f0a83e;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+}
+
+.headerPage__fondoAmarillo__logo {
+    height: 40px;
+}
+
+.headerPage__fondoAmarillo__nav__a {
+    color: #ffffff;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+/* ---------------------------------MAIN---------------------------------- */
+/* --------------------------------BANNER--------------------------------- */
+.section__banner {
+    background-image: url('../img/principal.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    justify-content: end;
+    padding: 80px;
+}
+
+.section__banner__textos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__banner__titulo {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #3c2313;
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px 30px;
+}
+
+.section__banner__parrafo {
+    border-radius: 5px;
+    color: #3c2313;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+}
+.section__banner__btn {
+    background-color: #f0a83e;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* -------------------------------DESTACADOS------------------------------- */
+.section__destacados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.section__destacados__nav {
+    padding: 15px 0px;
+}
+
+.section__destacados__i {
+    color: #f0a83e;
+    font-size: 180px;
+}
+
+.section__destacados__titulo {
+    color: #3c2313;
+    font-size: 40px;
+}
+
+.section__destacados__nav__a {
+    color: #666666;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+/* ---------------------------------CARDS--------------------------------- */
+.article__cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.article__cards__container {
+    background-color: #fbfaf6;
+    font-weight: 500;
+    margin: 50px 5px;
+    padding: 20px;
+}
+
+.article__cards__name {
+    color: #3c2313;
+    font-size: 15px;
+}
+
+.article__cards__price {
+    color: #f0a83e;
+    font-size: 15px;
+}
+
+/* ------------------------------CONTACTENOS----------------------------- */
+.article__contactenos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.article__contactenos__titulo {
+    color: #3c2313;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.article__contactenos__input {
+    background-color: #3c2313;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin: 5px;
+    padding: 10px;
+    width: 340px;
+}
+
+.article__contactenos__btn {
+    background-color: #8a8787;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100px;
+}
+
+.article__contactenos__btn-amarillo {
+    background-color: #f0a83e;
+}
+
+/* ---------------------------------------SUSCRIBETE-------------------------------------- */
+.article__suscribir {
+    align-items: center;
+    background-color: #f0a83e;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.article__suscribir__container {
+    align-items: center;
+    display: flex;
+}
+
+.article__suscribir__img {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.article__suscribir__titular {
+    color: #ffffff;
+}
+
+.article__suscribir__correo__input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+.article__suscribir__correo__btn {
+    background: #3c2313;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* -----------------------------------------FOOTER---------------------------------------- */
+.section__footer {
+    background-color: #3c2313;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.section__footer__contactos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 30px 0px;
+}
+
+.section__footer__contactos__img {
+    padding: 5px;
+}
+
+.section__footer__logo {
+    width: 300px;
+}
+
+.section__footer__legales {
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__footer__legales__redes {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.section__footer__legales__parrafo {
+    font-weight: bold;
+    color: #ffffff;
+}
+.ham{
+display: none;
+}
+
+@media (max-width: 460px){
+.headerPage__fondoOscuro{
+    display: none;
+}
+.headerPage__fondoAmarillo__nav {
+    display: none;
+}
+.ham{
+    display: block;
+    margin-right: -7rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color:#ffffff
+}
+.headerPage__fondoAmarillo__logo {
+    margin-left: -4rem;
+    width: 50vw;
+}
+.section__banner{
+    background-size:auto;
+}
+.section__banner__titulo{
+    width: 120%;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 4rem;
+}
+.section__banner__parrafo {
+    position: relative;
+    bottom: 4.5rem;
+    left: 5rem;
+}
+
+.section__banner__btn {
+    position: relative;
+    bottom: 5.5rem;
+    left:5.5rem;
+}
+
+.section__destacados{
+    margin-top: -10rem;
+}
+
+.article__cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article__suscribir{
+    display: flex;
+    flex-direction: column;
+}
+
+.section__footer__logo {
+    position: relative;
+    right: 13rem;
+    bottom: 8rem;
+    width: 50%;
+}
+}
